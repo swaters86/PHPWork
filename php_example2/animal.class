@@ -1,0 +1,35 @@
+<?php
+
+class Animal {
+
+ protected $name = null;
+
+ protected $species = null;
+ 
+ protected $canSee = false;
+ protected $canSmell = false;
+ protected $canWalk = false;
+ protected $canCrawl = false;
+ protected $canFly = false;
+ protected $canSwim = false; 
+ protected $canMakeNoises  = false; 
+ protected $canStampede = false;
+ protected $venomous = false;
+ protected $predator =  false;
+
+ public function __construct(){
+
+  echo 'You created an animal has been created. The animal is a';
+
+ }
+
+}
+
+class Dog extends Animal {
+
+	
+
+}
+
+
+?>
